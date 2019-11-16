@@ -9,7 +9,7 @@ public class Main {
         displayArray(numbers);
         int [] counts = countInts(numbers);
         System.out.println();
-        System.out.println("The occurence of each number are: ");
+        System.out.println("The amount of times each number are present is: ");
         displayCounts(counts);
 
 
@@ -40,10 +40,10 @@ public class Main {
         for (int i = 0; i < counts.length; i++) {
             if (counts[i] > 0){
                 if (counts[i] == 1) {
-                    System.out.println(i + " is present " + counts[i] + "time");
+                    System.out.println("number " + i + " is present " + counts[i] + " time");
                 }
                 else {
-                    System.out.println(i + " is present " + counts[i] + "times");
+                    System.out.println("number " + i + " is present " + counts[i] + " times");
                 }
 
             }
